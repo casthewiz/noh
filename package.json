@@ -1,7 +1,7 @@
 {
   "name": "noh",
   "version": "0.1.0",
-  "description": "Add character to your builds.",
+  "description": "Assertions with timers and character.",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js"
