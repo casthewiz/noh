@@ -1,0 +1,11 @@
+{
+  "name": "buildbadger",
+  "version": "1.0.0",
+  "description": "Add character to your builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "author": "cschaufe",
+  "license": "ISC"
+}
