@@ -1,6 +1,6 @@
 {
-  "name": "buildbadger",
-  "version": "1.0.0",
+  "name": "noh",
+  "version": "0.1.0",
   "description": "Add character to your builds.",
   "main": "index.js",
   "scripts": {

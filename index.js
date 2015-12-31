@@ -2,17 +2,22 @@
 
 
 module.exports = {
-  wearNoh: function(f, e){
+  wearNoh: function(f, e, time){
     f = addMask(f);
-    var l = f.apply(this, arguments);
-    if (l === e){
-      console.log(e + ' === ' +l)
-      console.log(f.gnoh)
-    } else {
-      console.log(e + ' !== ' + l)
-      console.log(f.fnoh)
+
+    return function(){
+      console.time("Execution Time");
+      var l = f.apply(this, arguments);
+      console.timeEnd("Execution Time");
+      if (l === e){
+        console.log( e + ' === ' + l + ', assert' + "\x1b[32m" + ' passed' + "\x1b[0m" +  '!\n')
+        console.log(f.gnoh)
+      } else {
+        console.log(e + ' !== ' + l + ', assert' + "\x1b[31m" +' failed' + "\x1b[0m" + '.\n')
+        console.log(f.fnoh)
+      }
+      return l
     }
-    return l
   }
 }
 
