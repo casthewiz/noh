@@ -1,6 +1,6 @@
 {
   "name": "noh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Assertions with timers and character.",
   "main": "index.js",
   "scripts": {
