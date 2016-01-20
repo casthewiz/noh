@@ -4,7 +4,7 @@
 
 noh provides simple assert functionality with emojis.
 </br>
-Because sometimes, failed tests deserve frowns and passes get smiles.
+Because sometimes unit tests need a little more character :)
 </br>
 </br>
 noh also includes basic logging messages and an execution timer. </br>
@@ -27,11 +27,9 @@ var noh = require('noh')
 var assertValue = 2
 function returnArg(arg){return arg}
 
-var example = noh.wearNoh(returnArg, assertValue) 
+var example = noh.wearNoh(returnArg, assertValue)
 example(2); //Pass with pass logging
 example(3); //Fail with failure logging
 </pre>
 
 On each call of example(), it's return value will be checked against assertValue, with subsequent logging.
-
-
