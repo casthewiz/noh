@@ -4,7 +4,7 @@
 
 noh provides simple assert functionality with emojis.
 </br>
-Because sometimes unit tests need a little more character :)
+Because sometimes assertions need a little more character :)
 </br>
 </br>
 noh also includes basic logging messages and an execution timer. </br>
