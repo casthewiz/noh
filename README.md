@@ -11,7 +11,7 @@ noh also includes basic logging messages and an execution timer. </br>
 
 ## Installation
 From terminal:
-####npm install noh
+`npm install noh`
 
 ## Usage
 wearNoh is a decorator function that wraps any function you give it with asserts, logging, and a noh emoji.
